@@ -1,0 +1,128 @@
+* {
+	margin: 0; 
+	padding: 0;
+	font-family: Arial;
+	background-color: #0e1115;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Arvores */
+#titulo {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+
+#titulo a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+	
+#titulo a:Hover{
+	text-decoration: none;
+	color: #00FFFF;
+}
+
+#diretor {
+	color: #DCDCDC;
+	font-size: 14px;
+}
+
+/* Cabeçalho */
+.header {
+	background: #111c20;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 7px;
+}
+
+#logos {
+	background: #111c20;
+}
+
+/* Rodapé */
+.footer {
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+#contatos {
+	display: block;
+	background: white;
+}
+
+#direitos {
+	display: block;
+	background: white;
+}
+
+
+/* Menu Dropdown */
+.menu {
+	width: 100%;
+	height: 50px;
+	background-color: #111c20;
+	font-size: 20px;
+}
+
+.menu ul {
+	list-style: none;
+	position: relative;
+}
+
+.menu ul li {
+	width: 180px;
+	float: left;
+}
+
+.menu a {
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background-color: #111c20;
+	color: #ffffff;
+}
+
+.menu ul ul {
+	position: absolute;
+	visibility: hidden;
+}
+
+.menu ul li:hover ul {
+	visibility: visible;
+}
+
+.menu a:hover {
+	background-color: #11181c;
+}
+
+.menu ul ul li {
+	float: none;
+	border-bottom: solid 1px #ffffff;
+}
+
+/* CSS FLEXBOX */
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.flex > div {
+	flex: 1 1 200px;
+	margin: 20px;
+}
